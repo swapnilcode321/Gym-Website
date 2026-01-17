@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    width: 100%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: black;
+    color: white;
+}
+
+.headre-text-part {
+    background-image: url(https://t4.ftcdn.net/jpg/09/59/60/29/360_F_959602940_olho9WtpigsAt4hRyjThUfYDvL8ps31P.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.header span {
+    color: yellow;
+}
+
+.Navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: yellow;
+}
+
+.text-control h1 {
+    color: white;
+    margin-left: 40px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-control p {
+    margin-left: 40px;
+    margin: 10px;
+    color: white;
+}
+
+.text-control button {
+    margin-left: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.text-control {
+    padding: 150px 30px;
+    font-size: 1.4rem;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.text-control span {
+    color: yellow;
+}
+
+.Navbar button {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.who-we-are-secation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 50px 50px;
+    background-color: black;
+    color: white;
+}
+
+.who-are-text {
+    margin-left: 30px;
+    line-height: 1.9rem;
+}
+
+.who-are-text span {
+    color: yellow;
+}
+
+.who-are-text button {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.program-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: #030e12;
+    padding: 40px 50px;
+}
+
+.Our-progam {
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #030e12;
+    color: white;
+}
+
+.Our-progam span {
+    color: yellow;
+}
+
+.box {
+    width: 300px;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.box-text {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.box-text img {
+    margin-bottom: 12px;
+}
+
+.experts1 {
+    background-image: url(https://images.ctfassets.net/qw8ps43tg2ux/1LPfI8kPATAzojZMBalhli/7dbdddba786444110a762b75977a8fd8/how-it-works-issa-certified-personal-trainer.webp?fm=webp&w=1440&q=75);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    text-align: center;
+}
+
+.experts2 {
+    background-image: url(https://img.freepik.com/free-photo/young-adult-doing-indoor-sport-gym_23-2149205542.jpg?semt=ais_hybrid&w=740&q=80);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    text-align: center;
+}
+
+.experts3 {
+    background-image: url(https://media.istockphoto.com/id/1336154392/photo/portrait-of-a-yogi-doing-breathing-exercises.jpg?s=612x612&w=0&k=20&c=v-4L26CUhGNfRoMx6Iek62neK1nFTs6ymoBKvPMNAf8=);
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    text-align: center;
+}
+
+.experts-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 50px;
+}
+
+.experts-text {
+    margin-top: 330px;
+}
+
+.experts-text h3 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.experts-text p {
+    color: white;
+}
+
+.meet-experts {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.meet-experts span {
+    color: yellow;
+}
+
+.meet-experts h2 {
+    padding: 20px;
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 2.7rem;
+}
+
+.price-box h2 {
+    padding: 60px;
+}
+
+.price-box button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.basic,
+.pro,
+.ultimate {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    margin: 10px;
+}
+
+.price-part {
+    text-align: center;
+    padding: 20px 50px;
+    background-color: #030e12;
+}
+
+.price-part h1 {
+    color: white;
+}
+
+.price-part span {
+    color: yellow;
+}
+
+.price-part p {
+    color: white;
+}
+
+.price-box h2 {
+    color: yellow;
+}
+
+.price-box li {
+    list-style: none;
+}
+
+.price-box button {
+    background-color: yellow;
+    color: black;
+}
+
+#btn1 {
+    width: 200px;
+}
+
+.get-in-touch {
+    background: black;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.get-in-touch h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    color: #666;
+    max-width: 700px;
+    margin: auto;
+}
+
+.form-and-address {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.form-box {
+    width: 550px;
+    background: #fff;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.form-box h2 {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row input {
+    width: 50%;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.form-box textarea {
+    height: 130px;
+    resize: none;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #1d4ed8;
+}
+
+.address-box {
+    width: 320px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.address-box h2 {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+.info p {
+    color: #444;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .form-and-address {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-box,
+    .address-box {
+        width: 100%;
+        max-width: 600px;
+    }
+}

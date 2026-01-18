@@ -529,5 +529,42 @@ nav li a {
         max-width: 320px;
     }
 }
+@media (max-width: 768px) {
+    .main {
+        position: static;
+    }
+}
+@media (max-width: 768px) {
+    .Navbar {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+@media (max-width: 768px) {
+    .Navbar ul {
+        gap: 10px;
+    }
+
+    .Navbar ul li a {
+        font-size: 14px;
+    }
+
+    .Navbar button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .Navbar ul {
+        display: none;
+    }
+}
+@media (min-width: 769px) {
+    .Navbar ul {
+        display: flex;
+    }
+}
+
+
 
 

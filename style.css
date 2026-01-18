@@ -564,6 +564,55 @@ nav li a {
         display: flex;
     }
 }
+.Navbar nav {
+    display: flex;
+    justify-content: space-between; /* Left aur right ko alag karta hai */
+    align-items: center;
+}
+
+.Navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Navbar button {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .Navbar nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Navbar button {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
 
 
 
